@@ -1,0 +1,34 @@
+.cursor-pointer{
+  cursor:pointer;
+}
+
+.hover-invert:not(.active):hover{
+  color:white;
+  background:black;
+}
+.card{
+border: none 
+}
+
+.blackbg{
+  background-color: black;
+}
+
+ .logo{
+    background:url('img/logoArt.png');
+    background-size:cover;
+    height:10vh;
+    width:10vh;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#logoLoad{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
